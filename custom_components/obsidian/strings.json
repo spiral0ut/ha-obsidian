@@ -1,0 +1,69 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Obsidian",
+        "description": "Enter the connection details for your Obsidian Local REST API plugin.",
+        "data": {
+          "url": "URL",
+          "api_key": "API Key",
+          "verify_ssl": "Verify SSL certificate",
+          "scan_interval": "Update interval (seconds)"
+        }
+      },
+      "select_notes": {
+        "title": "Select Notes",
+        "description": "Select the notes you want to monitor.",
+        "data": {
+          "notes": "Notes"
+        }
+      },
+      "select_fields": {
+        "title": "Select Fields for {note_path}",
+        "description": "Select the frontmatter fields to expose as sensors.",
+        "data": {
+          "fields": "Fields"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Obsidian. Check the URL and ensure the Local REST API plugin is running.",
+      "invalid_auth": "Invalid API key.",
+      "unknown": "An unexpected error occurred.",
+      "no_notes_selected": "Please select at least one note.",
+      "no_fields_selected": "No frontmatter fields were selected."
+    },
+    "abort": {
+      "no_fields_selected": "No frontmatter fields were selected. Cannot create integration."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Obsidian Options",
+        "description": "Configure update interval and select notes.",
+        "data": {
+          "scan_interval": "Update interval (seconds)"
+        }
+      },
+      "select_notes": {
+        "title": "Select Notes",
+        "description": "Select the notes you want to monitor.",
+        "data": {
+          "notes": "Notes"
+        }
+      },
+      "select_fields": {
+        "title": "Select Fields for {note_path}",
+        "description": "Select the frontmatter fields to expose as sensors.",
+        "data": {
+          "fields": "Fields"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Obsidian.",
+      "no_notes_selected": "Please select at least one note."
+    }
+  }
+}

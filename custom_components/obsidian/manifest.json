@@ -1,0 +1,10 @@
+{
+  "domain": "obsidian",
+  "name": "Obsidian",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/ha-obsidian/ha-obsidian",
+  "iot_class": "local_polling",
+  "version": "1.0.0",
+  "integration_type": "service"
+}
